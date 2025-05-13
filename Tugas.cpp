@@ -33,3 +33,9 @@ void PersegiPanjang::inputData(BangunDatar &bd){
     cout << "Masukkan Lebar : ";
     cin >> bd.lebar;
 }
+
+
+void PersegiPanjang::outputData(BangunDatar &bd){
+    cout << "Luas = " << bd.hitungLuas() << "cm" << endl;
+    cout << "Keliling = " << bd.hitungKeliling() << "cm" << endl;
+}
